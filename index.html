@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Library</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+
+<body class="bg-secondary bg-gradient">
+    <section id="search-section" class="bg-black">
+        <h1 class="text-white mx-auto w-50 ps-lg-5 mt-lg-5 mb-lg-3">Search for Your Desired Book</h1>
+        <div id="input-text" class="mb-3 w-50 mx-auto mt-lg-5">
+            <div class="input-group">
+                <input id="Search-field" type="text" class="form-control" placeholder="Search Book Here"
+                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button onclick="searchBook()" class="btn btn-outline-secondary bg-danger text-black-50" type="button"
+                    id="button-search">Search</button>
+            </div>
+        </div>
+        <br>
+        <section id="numof-books" class="ps-xl-5 w-100 mb-2 mt-3 bg-success text-white">
+
+        </section>
+    </section>
+    <section id="card-here">
+        <div id="inject-here" class="row row-cols-1 row-cols-md-3 g-4 w-75 mx-auto">
+            <!-- <div class="col">
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+    <script src="js/index.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
